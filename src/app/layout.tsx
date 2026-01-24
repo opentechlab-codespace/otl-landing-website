@@ -11,16 +11,17 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: {
-    default: "TechStudio - Transform Your Digital Vision",
-    template: "%s | TechStudio"
+    default: "OpenTech Lab - Transform Your Digital Vision",
+    template: "%s | OpenTech Lab",
   },
-  description: "We craft exceptional digital experiences through innovative web development, cutting-edge AI solutions, and strategic digital marketing.",
+  description:
+    "We craft exceptional digital experiences through innovative web development, cutting-edge AI solutions, and strategic digital marketing.",
   keywords: [
     "web development",
     "AI solutions",
     "digital marketing",
     "cloud computing",
-    "tech education"
+    "tech education",
   ],
 };
 
@@ -31,7 +32,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth" suppressHydrationWarning>
-      <body className={cn(inter.className, "min-h-screen bg-background antialiased")}>
+      <body
+        className={cn(
+          inter.className,
+          "min-h-screen bg-background antialiased"
+        )}
+      >
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
@@ -39,9 +45,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Navbar />
-          <main className="min-h-screen">
-            {children}
-          </main>
+          <main className="min-h-screen">{children}</main>
           <Footer />
           <Analytics />
           <TailwindIndicator />

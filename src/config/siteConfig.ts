@@ -1,16 +1,17 @@
 export const siteConfig = {
-  name: "TechStudio",
-  description: "Transform your ideas into digital reality through innovative solutions and cutting-edge technology.",
-  url: "https://techstudio.com",
-  ogImage: "https://techstudio.com/og.jpg",
+  name: "OpenTech Lab",
+  description:
+    "Transform your ideas into digital reality through innovative solutions and cutting-edge technology.",
+  url: "https://opentechlab.com",
+  ogImage: "https://opentechlab.com/og.jpg",
   links: {
-    twitter: "https://twitter.com/techstudio",
-    github: "https://github.com/techstudio"
+    twitter: "https://twitter.com/opentechlab",
+    github: "https://github.com/opentechlab",
   },
   contact: {
-    email: "contact@techstudio.com",
+    email: "contact@opentechlab.com",
     phone: "+1 (555) 123-4567",
-    address: "123 Tech Street, Silicon Valley, CA 94025"
+    address: "123 Tech Street, Silicon Valley, CA 94025",
   },
   meta: {
     keywords: [
@@ -19,7 +20,7 @@ export const siteConfig = {
       "cloud solutions",
       "AI/ML",
       "digital transformation",
-      "tech education"
-    ]
-  }
+      "tech education",
+    ],
+  },
 } as const;
