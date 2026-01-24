@@ -17,12 +17,13 @@ export default function ContactPage() {
         <div className="grid md:grid-cols-2 gap-16">
           <div>
             <p className="text-xl text-muted-foreground mb-8">
-              Get in touch with us to discuss your project or learn more about our services.
+              Get in touch with us to discuss your project or learn more about
+              our services.
             </p>
             <div className="space-y-6">
               <div className="flex items-center space-x-4">
                 <Mail className="w-6 h-6 text-primary" />
-                <span>contact@techstudio.com</span>
+                <span>contact@opentechlab.com</span>
               </div>
               <div className="flex items-center space-x-4">
                 <Phone className="w-6 h-6 text-primary" />
@@ -37,7 +38,12 @@ export default function ContactPage() {
           <div className="bg-secondary p-8 rounded-lg">
             <form className="space-y-6">
               <div>
-                <label htmlFor="name" className="block text-sm font-medium mb-2">Name</label>
+                <label
+                  htmlFor="name"
+                  className="block text-sm font-medium mb-2"
+                >
+                  Name
+                </label>
                 <input
                   type="text"
                   id="name"
@@ -45,7 +51,12 @@ export default function ContactPage() {
                 />
               </div>
               <div>
-                <label htmlFor="email" className="block text-sm font-medium mb-2">Email</label>
+                <label
+                  htmlFor="email"
+                  className="block text-sm font-medium mb-2"
+                >
+                  Email
+                </label>
                 <input
                   type="email"
                   id="email"
@@ -53,14 +64,21 @@ export default function ContactPage() {
                 />
               </div>
               <div>
-                <label htmlFor="message" className="block text-sm font-medium mb-2">Message</label>
+                <label
+                  htmlFor="message"
+                  className="block text-sm font-medium mb-2"
+                >
+                  Message
+                </label>
                 <textarea
                   id="message"
                   rows={4}
                   className="w-full px-4 py-2 rounded-md bg-background border border-input"
                 ></textarea>
               </div>
-              <Button type="submit" className="w-full">Send Message</Button>
+              <Button type="submit" className="w-full">
+                Send Message
+              </Button>
             </form>
           </div>
         </div>

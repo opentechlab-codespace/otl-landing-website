@@ -1,6 +1,7 @@
 // Application-wide constants
-export const APP_NAME = "TechStudio";
-export const APP_DESCRIPTION = "Transform your ideas into digital reality through innovative solutions and cutting-edge technology.";
+export const APP_NAME = "OpenTech Lab";
+export const APP_DESCRIPTION =
+  "Transform your ideas into digital reality through innovative solutions and cutting-edge technology.";
 export const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL;
 
 export const ROUTES = {
@@ -21,6 +22,6 @@ export const META = {
     "cloud solutions",
     "AI/ML",
     "digital transformation",
-    "tech education"
+    "tech education",
   ],
 } as const;

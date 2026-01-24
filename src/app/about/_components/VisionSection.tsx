@@ -6,18 +6,21 @@ export function VisionSection() {
     {
       icon: <Heart className="w-8 h-8" />,
       title: "Our Story",
-      content: "Founded by a group of passionate developers in 2014, TechStudio emerged from a shared vision to create meaningful impact through technology. What started as a small team has grown into a thriving community of innovators, developers, and digital creators."
+      content:
+        "Founded by a group of passionate developers in 2014, OpenTech Lab emerged from a shared vision to create meaningful impact through technology. What started as a small team has grown into a thriving community of innovators, developers, and digital creators.",
     },
     {
       icon: <Target className="w-8 h-8" />,
       title: "Our Mission",
-      content: "To empower individuals and organizations through technology, creating sustainable employment opportunities and fostering economic growth. We strive to make quality tech education accessible and build a supportive community for developers worldwide."
+      content:
+        "To empower individuals and organizations through technology, creating sustainable employment opportunities and fostering economic growth. We strive to make quality tech education accessible and build a supportive community for developers worldwide.",
     },
     {
       icon: <Eye className="w-8 h-8" />,
       title: "Our Vision",
-      content: "To establish a global ecosystem where technology drives social and financial stability. We aim to create a world where every individual has access to quality tech education and opportunities, contributing to a more equitable and prosperous society."
-    }
+      content:
+        "To establish a global ecosystem where technology drives social and financial stability. We aim to create a world where every individual has access to quality tech education and opportunities, contributing to a more equitable and prosperous society.",
+    },
   ];
 
   return (
@@ -34,7 +37,9 @@ export function VisionSection() {
             >
               <div className="text-primary mb-4">{section.icon}</div>
               <h2 className="text-2xl font-bold mb-4">{section.title}</h2>
-              <p className="text-muted-foreground leading-relaxed">{section.content}</p>
+              <p className="text-muted-foreground leading-relaxed">
+                {section.content}
+              </p>
             </motion.div>
           ))}
         </div>

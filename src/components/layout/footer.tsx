@@ -39,11 +39,15 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
-            <Link href="/" className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-600 text-transparent bg-clip-text">
-              TechStudio
+            <Link
+              href="/"
+              className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-600 text-transparent bg-clip-text"
+            >
+              OpenTech Lab
             </Link>
             <p className="mt-4 text-sm text-muted-foreground">
-              Transforming ideas into digital reality through innovative solutions and cutting-edge technology.
+              Transforming ideas into digital reality through innovative
+              solutions and cutting-edge technology.
             </p>
             <div className="mt-6 flex space-x-4">
               {socialLinks.map((social, index) => (
@@ -111,7 +115,7 @@ export function Footer() {
 
         <div className="mt-12 pt-8 border-t">
           <p className="text-sm text-muted-foreground text-center">
-            © {currentYear} TechStudio. All rights reserved.
+            © {currentYear} OpenTech Lab. All rights reserved.
           </p>
         </div>
       </div>
